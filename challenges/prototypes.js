@@ -18,8 +18,6 @@ function CuboidMaker(props) {
   Formula for cuboid volume: length * width * height
 */
 
-CuboidMaker.prototype = Object.create(CuboidMaker.prototype);
-
 CuboidMaker.prototype.volume = function() {
   return length * width * height;
 };
